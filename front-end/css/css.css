@@ -1,0 +1,541 @@
+body{
+    overflow-x: hidden;
+}
+/*--------------------------------------Header---------------------------------------*/
+        .header-top {
+            background-color: #F3F3F3;
+        }
+
+        .text{
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .header-top p {
+            font-size: 12px;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .logo {
+            background-color: white;
+            font-size: 1.5rem;
+            color: black;
+        }
+
+        i {
+            color: #252A2B;
+        }
+
+        nav {
+            background-color: white;
+        }
+
+        nav>ul {
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid #F7F7F7;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        nav>ul>li {
+            position: relative;
+            padding: 10px 5px;
+        }
+
+        nav>ul>li>a {
+            color: #050505;
+            margin: 10px 20px 0 0;
+            font-size: 15px;
+            font-family: 'Quicksand', sans-serif;
+        }
+a:hover {
+    text-decoration: none;
+}
+        nav>ul>li>a:hover {
+            text-decoration: none;
+            color: #50A7F8;
+        }
+
+        nav>ul>li>a>i {
+            font-size: 10px;
+        }
+        nav>ul>li:hover>a>i {
+            transform: rotate(-180deg);
+            transition: all .3s;
+        }
+
+
+        .mncon {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            width: max-content;
+            background-color: white;
+            border-top: 2px solid #5C5C5C;
+            padding: 0;
+            z-index: 9;
+        }
+
+        .mncon>li {
+            border-bottom: 1px solid #ECF0F1;
+            padding-bottom: 5px;
+        }
+
+        .mncon>li>a {
+            padding: 15px;
+            color: black;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 12px;
+        }
+
+        .mncon>li>a:hover {
+            padding: 15px;
+            color: #50A7F8;
+            text-decoration: none;
+        }
+
+        nav>ul>li:hover>.mncon {
+            display: block;
+        }
+        .sticky-top{
+            position: sticky;
+            
+        }
+/*-----------------------------------End Header-----------------------------------*/
+
+article .location {
+    background-color: #F3F3F3;
+}
+article .location p a {
+    color: #050505;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+article .location p a:hover {
+    text-decoration: none;
+    color: #50A7F8;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+
+
+/*--------------------------------------Cart---------------------------------------*/
+.hr {
+    width: 5%;
+    height: 3px;
+    background-color: #050505;
+}
+.header-page {
+    padding-top: 30px;
+}
+.header-page h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.header-page p{
+    font-size: 14px;
+}
+.content-cart {
+    padding: 0 100px 30px 100px;
+}
+.img-cart {
+    padding: 20px 0;
+}
+.item-cart {
+    padding: 20px 0 20px 15px;
+    width: 100%;
+}
+.text h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #050505;
+}
+.text span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*QTY*/
+.input_qty {
+    border-top: 1px solid #050505;
+    border-bottom: 1px solid #050505;
+    width: max-content;
+}
+.input_qty #qty {
+    width: 60px; 
+    height: 30px; 
+    border: none; 
+    background: none;
+    text-align: center;
+}
+.input_qty .button_qty {
+    width: 30px; 
+    height: 30px; 
+    border: none; 
+    background: none;
+    border-right: 1px solid #050505;
+    border-left: 1px solid #050505;
+}
+.input_qty .button_qty:hover {
+    width: 30px; 
+    height: 30px; 
+    border: none; 
+    background: none;
+    border-right: 1px solid #050505;
+    border-left: 1px solid #050505;
+}
+
+.cart-submit h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.submit {
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+}
+.submit:hover {
+    padding: 15px 30px;
+    background-color: #050505;
+    color: white;
+}
+
+/*Xoa mui ten input*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/*end Xoa mui ten input*/
+/*-----------------------------------End Cart-------------------------------------*/
+
+/*-----------------------------------Checkout-------------------------------------*/
+.checkout {
+    padding: 50px 0;
+}
+.main-header {
+    padding-bottom: 25px;
+}
+.logo-text {
+    font-size: 28px;
+    color: #050505;
+}
+.checkout h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.checkout p a {
+    color: #050505;
+    opacity: 75%;
+}
+.checkout p a:hover {
+    color: #50A7F8;
+    opacity: 75%;
+}
+.checkout p {
+    font-size: 14px;
+}
+.section input{
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+}
+/*-----------------------------------End Checkout----------------------------------*/
+
+/*-----------------------------------Order-------------------------------------*/
+.content-order {
+    padding: 0 100px 30px 100px;
+}
+.header-page {
+    padding-bottom: 20px;
+}
+.table i {
+    padding-right: 5px;
+    width: 30px;
+}
+/*-----------------------------------End order-------------------------------------*/
+
+/*-----------------------------------Footer-------------------------------------*/
+footer {
+    padding-top: 10px;
+}
+
+.footer-top {
+    background-color: #F3F3F3;
+}
+
+.input-DK {
+    padding: 25px 0;
+}
+
+.input-DK input[type=text] {
+    width: 500px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.input-DK input[type=submit] {
+    width: 120px;
+    height: 40px;
+    padding: 0 20px;
+    color: white;
+    background-color: #050505;
+    border: none;
+}
+
+.input-DK input[type=submit]:hover {
+    width: 120px;
+    height: 40px;
+    padding: 0 20px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.footer-content {
+    padding: 40px 0 30px 0;
+}
+
+.footer-content h4 {
+    color: #050505;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.footer-content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content ul li {
+    margin: 7px 0;
+}
+
+.footer-content a {
+    color: #050505;
+    font-style: 14px;
+}
+
+.footer-content a:hover {
+    color: #50A7F8;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background-color: #F3F3F3;
+    padding: 20px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-weight: 200;
+    color: #050505;
+}
+  /*--------------------------------End Footer-------------------------------------*/
+
+  /*--------------------------------detail-----------------------------------------*/
+.titles{
+    font-size: 20px;
+    font-weight: bold;
+}
+.id-prducts{
+    color: #B1B2B3;
+    font-size: 12px;
+}
+.size label{
+    border: 1px solid black;
+    width: 8%;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: 10px;
+    margin-bottom: 0 !important;
+}
+.size label:hover{
+    background-color: black;
+    color: white;
+}
+input[type=radio]:checked + label{
+    background-color: black;
+    color: white;
+}
+.add-cart{
+    background-color: red;
+    font-weight: bold;
+    padding: 15px 0;
+    border: none;
+    color: white;
+}
+.add-cart:hover{
+background-color: black;
+}
+.comment{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 10px;
+    margin-top: 35px;
+}
+.comment .text span{
+    font-size: 10px!important;
+    font-weight: bold;
+    color: gray; 
+}
+form textarea{
+    height: 50px;
+    margin: 50px 0 10px 0;
+    width: 100%;
+}
+.btn-cmt{
+    background-color: red;
+    font-weight: bold;
+    padding: 13px 40px;
+    border: none;
+    float: right;
+    margin-top: 51px;
+
+    
+}
+.btn-cmt:hover{
+    background-color: black;
+}
+.grid-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+.product-hover {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-img {
+    position: relative;
+}
+
+.item a p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.item {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    transition: .5s ;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    display: block;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    
+}
+.product-hover:hover .item {
+  bottom: 0;
+}
+.taitle {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.taitle a p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.taitle a:hover {
+    color: blue !important;
+    text-decoration: none;
+}
+
+.taitle .price {
+    font-weight: bold;
+    font-size: 14px;
+}
+/*--------------------------------end-detail-----------------------------------------*/
+
+/*----------------------------------Intro---------------------------------------------*/
+.size-intro {
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+  .cate {
+    border: 1px solid #e3e5ec;
+    padding-right: 10px;
+    height: 250px;
+    border-radius: 6px;
+    margin: 0 0 30px;
+    position: relative;
+    padding: 20px;
+  }
+  .size-intro .cate h4 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+  }
+  .size-intro .cate a {
+    text-align: center;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    
+    padding: 10px 10px 10px 0;
+  }
+  .size1 h2 {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+  }
+  .size1 h3 {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+  }
+  .size1 p {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+  }
+  .nd {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+/*----------------------------------End-Intro---------------------------------------------*/
+
+
+.sticky-top{
+    position: sticky;
+}
